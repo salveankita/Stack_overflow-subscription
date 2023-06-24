@@ -1,0 +1,56 @@
+.subscription-container {
+    max-width: 530px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+}
+
+.plan-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.plan {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.selected {
+    background-color: #e0e0e0;
+}
+
+.plan h2 {
+    margin-bottom: 10px;
+}
+
+.plan p {
+    margin-bottom: 5px;
+}
+
+.checkout-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+    .checkout-btn:disabled {
+        background-color: #ccc;
+        cursor: not-allowed;
+    }
